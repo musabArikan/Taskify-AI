@@ -24,7 +24,7 @@ class TokenService {
 class BaseApi {
   constructor() {
     this.api = axios.create({
-      baseURL: "https://taskifyai-0qmc.onrender.com/api",
+      baseURL: "https://taskifyai-backend.onrender.com/api",
       headers: {
         "Content-Type": "application/json",
       },
