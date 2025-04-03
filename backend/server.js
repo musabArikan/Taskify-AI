@@ -28,7 +28,7 @@ const upload = multer({
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174"],
+    origin: ["http://localhost:5173", "http://localhost:5174","https://taskifyai-com.onrender.com/"],
     credentials: true,
   })
 );
